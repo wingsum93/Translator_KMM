@@ -39,7 +39,7 @@ actual data class UiLanguage(
                         Language.ARABIC -> R.drawable.arabic
                         Language.AZERBAIJANI -> R.drawable.azerbaijani
                         Language.CHINESE -> R.drawable.chinese
-                        Language.CHINESE_TRADITIONAL -> R.drawable.chinese
+                        Language.CHINESE_TRADITIONAL -> R.drawable.hk_circle
                         Language.CZECH -> R.drawable.czech
                         Language.DANISH -> R.drawable.danish
                         Language.DUTCH -> R.drawable.dutch
