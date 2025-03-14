@@ -9,10 +9,12 @@ actual data class UiLanguage(
     @DrawableRes val drawableRes: Int,
     actual val language: Language
 ) {
+    // ios app will use
     fun toLocale(): Locale? {
         return when(language) {
             Language.ENGLISH -> Locale.ENGLISH
             Language.CHINESE -> Locale.CHINESE
+            Language.CHINESE_TRADITIONAL -> Locale.TRADITIONAL_CHINESE
             Language.FRENCH -> Locale.FRENCH
             Language.GERMAN -> Locale.GERMAN
             Language.ITALIAN -> Locale.ITALIAN
@@ -37,6 +39,7 @@ actual data class UiLanguage(
                         Language.ARABIC -> R.drawable.arabic
                         Language.AZERBAIJANI -> R.drawable.azerbaijani
                         Language.CHINESE -> R.drawable.chinese
+                        Language.CHINESE_TRADITIONAL -> R.drawable.chinese
                         Language.CZECH -> R.drawable.czech
                         Language.DANISH -> R.drawable.danish
                         Language.DUTCH -> R.drawable.dutch

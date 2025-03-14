@@ -8,6 +8,7 @@ enum class Language(
     ARABIC("ar", "Arabic"),
     AZERBAIJANI("az", "Azerbaijani"),
     CHINESE("zh", "Chinese"),
+    CHINESE_TRADITIONAL("zt", "Hong Kong"),
     CZECH("cs", "Czech"),
     DANISH("da", "Danish"),
     DUTCH("nl", "Dutch"),
